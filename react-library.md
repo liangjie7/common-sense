@@ -49,7 +49,7 @@ const App = () => (
 );
 ```
 ## 生命周期
-
+[react 生命周期](https://blog.csdn.net/qq_34134278/article/details/81328464)
 - 装载
 1. constructor
 2. static getDerivedStateFromProps()
@@ -57,4 +57,12 @@ const App = () => (
 4. componentDidMount
 - 更新
 1. static getDerivedStateFromProps()
-
+2. shouldComponentUpdate()
+3. render()
+4. getSnapshotBeforeUpdate()
+5. componentDidUpdate()
+- 卸载
+1. componentWillUnmount()
+- 报错
+1. static getDerivedStateFromError()
+2. componentDidCatch()
