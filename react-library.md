@@ -63,6 +63,7 @@ const App = () => (
 5. componentDidUpdate()
 - 卸载
 1. componentWillUnmount()
+2. componentDidUnMount()
 - 报错
 1. static getDerivedStateFromError()
 2. componentDidCatch()
